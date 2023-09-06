@@ -1,3 +1,6 @@
+<?php
+require "src/Controllers/Animal.class.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,6 +12,10 @@
 
 <body>
     <h1>Page 2</h1>
+    <?php
+    $class = new Animal("Odile");
+    $class->aboyer();
+    ?>
 </body>
 
 </html>
