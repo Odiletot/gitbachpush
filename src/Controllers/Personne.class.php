@@ -6,4 +6,7 @@ class Personne{
      public function __construct(string $var = "") {
         $this->nom = $var;
     }
+    public function parler(){
+       echo  $this->nom. "peut parler";
+    }
 }
