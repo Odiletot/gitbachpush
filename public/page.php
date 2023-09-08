@@ -1,5 +1,5 @@
 <?php
-require "src/Controllers/Animal.class.php";
+require "../src/Controllers/Animal.class.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
